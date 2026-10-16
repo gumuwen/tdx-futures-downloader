@@ -1,0 +1,16 @@
+# Python 编译文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE & 编辑器
+.vscode/
+.idea/
+
+# 环境变量与配置
+.env
+
+# 下载的期货数据与元数据（避免误提交上 GB 的 Parquet 文件）
+data/
+*.parquet
+*.tmp.parquet
